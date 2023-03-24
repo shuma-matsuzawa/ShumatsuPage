@@ -7,7 +7,7 @@ const Header = () => {
     <header>
         <div className="logo">
             <h3>
-                ポートフォリオ
+                しゅうまつのページ
             </h3>
 
         </div>
@@ -20,10 +20,15 @@ const Header = () => {
              <li>
                 <Link to="/blog">ブログ</Link>
             </li>
-             <li>
-                <a href="#">SNS</a>
+            <li>
+                <Link to="/MySNS">SNS</Link>
+
+            </li>      
+            <li>
+                <Link to="/MyArts">作品</Link>
 
             </li>               
+         
             </ul>            
         </nav>
 

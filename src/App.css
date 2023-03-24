@@ -18,7 +18,7 @@ header {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background: black;
+  background: rgb(0, 0, 68);
   color: white;
   height: 90px;
   position: fixed;
@@ -53,10 +53,23 @@ nav ul li a:hover {
   color: #48b4af;
 }
 
+footer {
+  display: flex;
+  color: azure;
+  background-color: rgb(0, 0, 83);
+  height: 200px;
+  width: 100%;
+}
+footer .contact {
+align-items: flex-end;
+}
+
+
 .container {
-  height: 100vh;
+  min-height: 100vh;
   padding: 120px;
 }
+
 
 .container h1 {
   text-align: center;

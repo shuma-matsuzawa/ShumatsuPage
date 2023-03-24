@@ -3,18 +3,17 @@ import React from "react";
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/sibainu.jpg";
+import profileImage from "../Images/MyIcon.png";
 
 const HomePage = () => {
   return (
     <div className="container text-center">
-      <h1>Shin Code</h1>
+      <h1>しゅうまつ/Shumatsu</h1>
 
       <img src={profileImage} className="profileImage" />
 
       <p>
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
+        しゅうまつといいます。趣味でプログラミングの勉強をしています。イラストなどのクリエイティブの勉強もしています。山形大学理学部に在学しています。
       </p>
 
       <section class="page-section" id="services">
@@ -67,28 +66,23 @@ const HomePage = () => {
       </section>
 
       <section id="skill">
-        <div class="text-center">
-          <h1 class="title">スキル</h1>
+        <div class="text-center"> 
+      <h1 class="title">スキル</h1>
           <div class="row text-center">
-            <div class="col-md-4 services">
+            <div class="col-md-6 services">
               <img src={reactImage} />
               <h4>React</h4>
-              <p>Reactがつかえます</p>
+              <p>Reactが少し理解できます</p>
             </div>
-            <div class="col-md-4 services">
+            <div class="col-md-6 services">
               <img src={jsImage} />
-              <h4>HTML/CSS</h4>
-              <p>HTML/CSSがつかえます</p>
+              <h4>HTML/CSS/JavaScript</h4>
+              <p>HTML/CSS/JavaScriptが少し理解できます</p>
             </div>
-            <div class="col-md-4 services">
-              <img src={firebaseImage} />
-              <h4>Firebase</h4>
-              <p>Firebaseがつかえます</p>
-            </div>
-          </div>
-          <button type="button" class="btn btn-primary">
+        <button type="button" class="btn btn-primary">
             スキル一覧
           </button>
+          </div>
         </div>
       </section>
     </div>
