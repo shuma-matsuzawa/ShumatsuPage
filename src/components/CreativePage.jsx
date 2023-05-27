@@ -2,7 +2,7 @@ import React from 'react'
 
 function CreativePage() {
   return (
-    <div className="container">
+    <div className="contain">
     
         creativePage
     

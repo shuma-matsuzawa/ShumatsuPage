@@ -53,25 +53,21 @@ nav ul li a:hover {
   color: #48b4af;
 }
 
-footer {
-  display: flex;
+Footer .contacts {
   color: azure;
   background-color: rgb(0, 0, 83);
-  height: 200px;
+  height: 100%;
   width: 100%;
-}
-footer .contact {
-align-items: flex-end;
+  font-size: 50px;
 }
 
-
-.container {
+.contain {
   min-height: 100vh;
   padding: 120px;
 }
 
 
-.container h1 {
+.contain h1 {
   text-align: center;
   font-size: 50px;
 }
@@ -84,9 +80,14 @@ align-items: flex-end;
   margin-bottom: 15px;
 }
 
-img {
+.skills {
   width: 300px;
   height: 500px;
+}
+
+.twitterIcon{
+  width: 120px;
+  height: 100px;
 }
 
 .service {

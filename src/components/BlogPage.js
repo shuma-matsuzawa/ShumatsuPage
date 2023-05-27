@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogPage = () => {
   return (
-    <div className="container">
+    <div className="contain">
 
         <h1>ブログ</h1>
 
