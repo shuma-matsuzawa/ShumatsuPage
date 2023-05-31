@@ -3,6 +3,7 @@ import React from "react";
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import profileImage from "../Images/MyIcon.png";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -27,13 +28,12 @@ const HomePage = () => {
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                <i class="fas fa-sharp fa-play fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">ECサイト</h4>
+              <h4 class="my-3">Youtube管理アプリ</h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                YouTubeを使いすぎないよう管理できるwebアプリを開発中...
+                <Link to="/BlockYoutubeApp">アプリへ</Link>
               </p>
             </div>
             <div class="col-md-4">
@@ -53,11 +53,9 @@ const HomePage = () => {
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">ウェブセキュリティ</h4>
+              <h4 class="my-3">None</h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                今後追加予定
               </p>
             </div>
             <div class="col-md-4">
@@ -65,11 +63,9 @@ const HomePage = () => {
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">アプリ</h4>
+              <h4 class="my-3">None</h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                今後追加予定
               </p>
             </div>
             <div class="col-md-4">
@@ -77,11 +73,9 @@ const HomePage = () => {
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">ウェブセキュリティ</h4>
+              <h4 class="my-3">None</h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                今後追加予定
               </p>
             </div>
             <div class="col-md-4">
@@ -89,11 +83,9 @@ const HomePage = () => {
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">ウェブセキュリティ</h4>
+              <h4 class="my-3">None</h4>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                今後追加予定
               </p>
             </div>
           </div>
