@@ -100,13 +100,13 @@ const HomePage = () => {
           <div class="row text-center">
 
             <div class="col-md-6 services" >
-              <img src={reactImage} className="skills" />
+              <img src={reactImage} alt="" className="skills" />
               <h4>React</h4>
               <p>Reactが少し理解できます</p>
             </div>
 
             <div class="col-md-6 services" >
-              <img src={jsImage} className="skills"/>
+              <img src={jsImage} alt="" className="skills"/>
               <h4>HTML/CSS/JavaScript</h4>
               <p>HTML/CSS/JavaScriptが少し理解できます</p>
             </div>
