@@ -27,7 +27,12 @@ const Header = () => {
             <li>
                 <Link to="/MyArts">作品</Link>
 
-            </li>               
+            </li>  
+
+            <li>
+                <Link to= "/CostCalculatorPage">費用計算</Link>
+
+            </li>             
          
             </ul>            
         </nav>

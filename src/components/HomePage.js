@@ -13,7 +13,7 @@ const HomePage = () => {
       <img src={profileImage} className="profileImage" />
 
       <p>
-        しゅうまつといいます。趣味でプログラミングの勉強をしています。イラストなどのクリエイティブの勉強もしています。理学部で、物理を主に学んでいます。
+        しゅうまつといいます。趣味でプログラミングの勉強をしています。イラストなどの制作もしています。理学部で、物理を主に学んでいます。
       </p>
 
       <section class="page-section" id="services">
@@ -48,16 +48,18 @@ const HomePage = () => {
                 impedit.
               </p>
             </div>
+
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">None</h4>
+              <h4 class="my-3">費用計算</h4>
               <p class="text-muted">
-                今後追加予定
+                会誌の費用を計算するページ
               </p>
             </div>
+
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>

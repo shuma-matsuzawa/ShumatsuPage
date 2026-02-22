@@ -6,6 +6,7 @@ import CreativePage from "./components/CreativePage";
 import Footer from "./components/Footer";
 import SNS from "./components/SNS";
 import BlockYoutube from "./components/BlockYoutube";
+import CostCalculatorPage from "./components/CostCalculatorPage";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Route path="/MySNS" element={<SNS />} />
     <Route path="/MyArts" element={<CreativePage />} />
     <Route path="/BlockYoutubeApp" element={<BlockYoutube/>}/>
+    <Route path="/CostCalculatorPage" element={<CostCalculatorPage/>}/>
     </Routes>
 
     <Footer />
