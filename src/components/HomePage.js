@@ -10,7 +10,7 @@ const HomePage = () => {
     <div className="contain text-center">
       <h1>しゅうまつ/Shumatsu</h1>
 
-      <img src={profileImage} className="profileImage" />
+      <img src={profileImage} alt="profileImage" className="profileImage" />
 
       <p>
         しゅうまつといいます。趣味でプログラミングの勉強をしています。イラストなどの制作もしています。理学部で、物理を主に学んでいます。

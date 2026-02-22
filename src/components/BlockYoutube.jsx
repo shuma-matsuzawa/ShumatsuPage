@@ -50,11 +50,11 @@ const BlockYoutubeApp = () => {
 
   useEffect(() => {
     if (selectedVideoId) {
-      const player = new window.YT.Player('youtube-player', {
-        height: '360',
-        width: '640',
-        videoId: selectedVideoId,
-      });
+      // const player = new window.YT.Player('youtube-player', {
+      //   height: '360',
+      //   width: '640',
+      //   videoId: selectedVideoId,
+      // });
     }
   }, [selectedVideoId]);
 
